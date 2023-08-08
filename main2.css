@@ -1,0 +1,191 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-image: linear-gradient(#B8B8D1, #8788b4);
+  min-height: 100vh;
+  max-width: 100vw;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body header {
+  text-align: center;
+  color: white;
+}
+body header h1 {
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  font-weight: 900;
+}
+body .inputDiv {
+  width: 800px;
+  height: 50px;
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  border: 2px rgba(129, 129, 129, 0.76) solid;
+  margin-bottom: 50px;
+}
+body .inputDiv input {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  font-size: 1.3em;
+}
+body .inputDiv div {
+  height: 38px;
+  min-width: 38px;
+  border-radius: 50%;
+  margin-left: 7px;
+  margin-right: 20px;
+  padding-bottom: 5px;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  /* pointer-events: none; */
+  cursor: pointer;
+}
+body .tags {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body .tags div {
+  min-width: 200px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  margin: 0px 10px 0px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+body .imgDiv {
+  display: flex;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+  flex-wrap: wrap;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body .imgDiv > div {
+  height: 400px;
+  max-width: auto;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+body .imgDiv > div img {
+  border-radius: 10px;
+  margin: 0px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+body .imgDiv > div div {
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body .imgDiv > div div img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+body .imgDiv > div div div {
+  margin-left: 20px;
+  width: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+}
+body .imgDiv > div div div div {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+body .imgDiv > div div div div div:nth-child(1) {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+body .imgDiv > div div div div div:nth-child(1) abbr {
+  text-decoration: none;
+}
+body .imgDiv > div div div div div:nth-child(1) strong {
+  display: flex;
+  align-self: center;
+}
+body .imgDiv > div div div div div:nth-child(2) {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+body .imgDiv > div div div div div:nth-child(2) abbr {
+  text-decoration: none;
+}
+body .imgDiv > div div div div div:nth-child(2) strong {
+  display: flex;
+  align-self: center;
+}
+body .imgDiv > div div div div div:nth-child(3) {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+body .imgDiv > div div div div div:nth-child(3) abbr {
+  text-decoration: none;
+}
+body .imgDiv > div div div div div:nth-child(3) strong {
+  display: flex;
+  align-self: center;
+}
+body .imgDiv > div div div div:nth-child(2) {
+  font-size: 1.3em;
+  margin-top: 17px;
+}
+body .imgDiv > div div div div:nth-child(2) abbr {
+  text-decoration: none;
+  font-weight: bolder;
+}/*# sourceMappingURL=main2.css.map */
